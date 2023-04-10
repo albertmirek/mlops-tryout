@@ -1,0 +1,1 @@
+mlflow.set_experiment(experiment_name="manual_logging")

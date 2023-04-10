@@ -1,0 +1,10 @@
+name: sklearn_logistic_example_docker
+
+#docker_env:
+#  image:  mlflow-docker-example
+
+python_env: python_env.yaml
+
+entry_points:
+  main:
+    command: "python train.py"
